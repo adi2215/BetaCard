@@ -1,18 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class _Card : MonoBehaviour
+namespace CardSystem
 {
-    // Start is called before the first frame update
-    void Start()
+    public class _Card
     {
-        
-    }
+        public CardType card;
+        public bool isMatched;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public _Card(CardType card)
+        {
+            this.card = card;
+            this.isMatched = false;
+        }
     }
 }
