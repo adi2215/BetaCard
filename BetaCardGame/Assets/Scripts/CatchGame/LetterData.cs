@@ -5,4 +5,5 @@ public class LetterData : ScriptableObject
 {
     public char letter;
     public Sprite letterSprite;
+    public AudioClip sound;
 }
