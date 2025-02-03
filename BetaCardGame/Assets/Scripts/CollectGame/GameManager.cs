@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public Transform basket;
     public List<ItemData> allItems;
-    public List<ItemData> validItems; 
+    public char word;
 
     private void Awake()
     {
@@ -17,18 +17,14 @@ public class GameManager : MonoBehaviour
     {
         float distance = Vector3.Distance(item.transform.position, basket.position);
 
-        if (distance < 1.5f)
+        if (word == item.itemData.firstLetter)
         {
-            if (validItems.Contains(item.itemData))
-            {
-                Debug.Log($"{item.itemData.itemName} начинается с буквы 'М'");
-                Destroy(item.gameObject);
-            }
-            else
-            {
-                Debug.Log($"{item.itemData.itemName} не начинается с 'М'");
-                item.transform.position = new Vector3(Random.Range(-3f, 3f), Random.Range(-3f, 3f), 0);
-            }
+            Debug.Log($"{item.itemData.itemName} начинается с буквы 'C'");
+            Destroy(item.gameObject);
+        }
+        else
+        {
+            Debug.Log($"{item.itemData.itemName} не начинается с 'С'");
         }
     }
 }

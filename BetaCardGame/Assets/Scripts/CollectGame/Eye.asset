@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f62ce0e8da7008419e2723d4032b6d5, type: 3}
-  m_Name: Ball
+  m_Name: Eye
   m_EditorClassIdentifier: 
-  itemName: Ball
-  itemSprite: {fileID: 21300000, guid: e480df299c508154383c21aff7ace0da, type: 3}
-  firstLetter: 66
+  itemName: Eye
+  itemSprite: {fileID: 21300000, guid: 6cf9451fcc9e71d42aa330ccef51be5e, type: 3}
+  firstLetter: 69

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FlexibleGridLayout : LayoutGroup
+public class FlexibleGridLayout
 {
-    public enum FitType 
+    /*public enum FitType 
     {
         Uniform,
         Width,
@@ -70,5 +70,5 @@ public class FlexibleGridLayout : LayoutGroup
 
     public override void SetLayoutVertical()
     {
-    }
+    }*/
 }

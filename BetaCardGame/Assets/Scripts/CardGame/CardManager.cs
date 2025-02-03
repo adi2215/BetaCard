@@ -26,42 +26,78 @@ namespace CardSystem
         public RectTransform parentContainer;
         public Vector2 padding = new Vector2(25, 10);
 
-        void Start() 
+        public void Start() 
         {
             PrepareCards();
             UpdateGrid2();
         }
 
-        void UpdateGrid()
-        {
-            bool isVertical = Screen.height > Screen.width;
-            int columns = Mathf.CeilToInt(Mathf.Sqrt(cardCount));
-            int rows = Mathf.CeilToInt((float)cardCount / columns);
+        void UpdateGrid() 
+        { 
+            bool isVertical = Screen.height > Screen.width; // Проверяем ориентацию
+            Debug.Log($"Ориентация: {(isVertical ? "Вертикальная" : "Горизонтальная")}");
 
-            // Корректируем баланс строк и колонок
-            if (isVertical && rows <= columns)
+            int rows, columns;
+    
+            
+            int bestRows = 1;
+            int bestColumns = cardCount; // Начинаем с самой вытянутой формы
+
+            for (int r = 1; r <= cardCount; r++) // Перебираем строки
             {
-                rows++;
+                int c = Mathf.CeilToInt((float)cardCount / r); // Колонки для текущего r
+
+                if (r * c >= cardCount) // Убеждаемся, что влезает всё
+                {
+                    // Если разница между rows и columns стала меньше — сохраняем
+                    if (Mathf.Abs(r - c) < Mathf.Abs(bestRows - bestColumns))
+                    {
+                        bestRows = r;
+                        bestColumns = c;
+                    }
+                }
+            }
+
+            rows = bestRows;
+            columns = bestColumns;
+
+            // Корректируем баланс строк и столбцов
+            if (isVertical)
+            {
+                if (rows <= columns)
+                {
+                    rows++;
+                    columns = Mathf.CeilToInt((float)cardCount / rows);
+                }
+            }
+            else // Горизонтальная ориентация
+            {
+                if (columns <= rows)
+                {
+                    columns++;
+                    rows = Mathf.CeilToInt((float)cardCount / columns);
+                }
+            }
+
+            // Если мало карт (1, 2, 3, 4), делаем пропорционально
+            if (cardCount <= 4)
+            {
+                rows = cardCount > 2 ? 2 : 1;
                 columns = Mathf.CeilToInt((float)cardCount / rows);
             }
-            if (!isVertical && columns <= rows)
-            {
-                columns++;
-                rows = Mathf.CeilToInt((float)cardCount / columns);
-            }
 
-            // Настройка GridLayoutGroup
-            gridLayout.constraint = isVertical ? GridLayoutGroup.Constraint.FixedRowCount 
-                                            : GridLayoutGroup.Constraint.FixedColumnCount;
-            gridLayout.constraintCount = isVertical ? rows : columns;
+            // Применяем к GridLayoutGroup
+            gridLayout.constraint = isVertical ? GridLayoutGroup.Constraint.FixedColumnCount 
+                                            : GridLayoutGroup.Constraint.FixedRowCount;
+            gridLayout.constraintCount = isVertical ? columns : rows;
 
             // Доступное пространство с учетом отступов
             float parentWidth = parentContainer.rect.width - (padding.x * (columns - 1));
             float parentHeight = parentContainer.rect.height - (padding.y * (rows - 1));
 
-            // Минимальный и максимальный размеры карт (автоматический расчет)
+            // Минимальный и максимальный размер карт
             float minCellSize = Mathf.Max(0.1f * Mathf.Min(parentWidth, parentHeight), 50f);
-            float maxCellSize = Mathf.Min(parentWidth / 2, parentHeight / 2);
+            float maxCellSize = Mathf.Min(parentWidth * 0.3f, parentHeight * 0.3f); // Ограничение до 30% от контейнера
 
             // Вычисляем размер ячеек
             float cellWidth = parentWidth / columns;
@@ -69,44 +105,104 @@ namespace CardSystem
             float finalCellSize = Mathf.Clamp(Mathf.Min(cellWidth, cellHeight), minCellSize, maxCellSize);
 
             // Применяем параметры
-            gridLayout.cellSize = new Vector2(finalCellSize, finalCellSize);
+            gridLayout.cellSize = new Vector2(finalCellSize, finalCellSize + 35);
             gridLayout.spacing = padding;
-        }
+        } 
 
-        void UpdateGrid2()
+        void CalculateGrid(int cardCount, out int rows, out int columns)
         {
-            bool isVertical = Screen.height > Screen.width;
-            Debug.Log(isVertical); // Проверяем ориентацию
-            int columns = Mathf.CeilToInt(Mathf.Sqrt(cardCount)); // Базовое количество колонок
-            int rows = Mathf.CeilToInt((float)cardCount / columns); // Базовое количество строк
+            int bestRows = 1;
+            int bestColumns = cardCount; // Начинаем с самой вытянутой формы
 
-            // Корректируем, чтобы Row был чуть больше Column в вертикальном режиме
-            if (isVertical && rows <= columns)
+            for (int r = 1; r <= cardCount; r++) // Перебираем строки
             {
-                rows++;
-                columns = Mathf.CeilToInt((float)cardCount / rows);
+                int c = Mathf.CeilToInt((float)cardCount / r); // Колонки для текущего r
+
+                if (r * c >= cardCount) // Убеждаемся, что влезает всё
+                {
+                    // Если разница между rows и columns стала меньше — сохраняем
+                    if (Mathf.Abs(r - c) < Mathf.Abs(bestRows - bestColumns))
+                    {
+                        bestRows = r;
+                        bestColumns = c;
+                    }
+                }
             }
-            
-            // Корректируем, чтобы Column был чуть больше Row в горизонтальном режиме
-            if (!isVertical && columns <= rows)
+
+            rows = bestRows;
+            columns = bestColumns;
+        }
+        
+        void UpdateGrid2() 
+        { 
+            bool isVertical = Screen.height > Screen.width; 
+            Debug.Log(isVertical);
+            int columns, rows;
+
+            gridLayout.constraint = isVertical ? GridLayoutGroup.Constraint.FixedColumnCount
+                                            : GridLayoutGroup.Constraint.FixedRowCount; 
+            if (cardCount >= 4)
             {
-                columns++;
-                rows = Mathf.CeilToInt((float)cardCount / columns);
+                if (!isVertical)
+                {
+                    rows = Mathf.FloorToInt(cardCount / 2);
+                    columns = Mathf.FloorToInt(cardCount * 2 / rows);
+                }  
+
+                else
+                {
+                    columns = Mathf.FloorToInt(cardCount / 2);
+                    rows = Mathf.FloorToInt(cardCount * 2 / columns);
+                }
+
+                gridLayout.constraintCount = Mathf.FloorToInt(cardCount / 2); 
             }
 
-            // Применяем к GridLayoutGroup
-            gridLayout.constraint = isVertical ? GridLayoutGroup.Constraint.FixedRowCount
-                                            : GridLayoutGroup.Constraint.FixedColumnCount;
-            gridLayout.constraintCount = isVertical ? rows : columns;
+            else
+            {
+                if (cardCount == 3)
+                {
 
-            // Настроим размер ячеек
-            float parentWidth = parentContainer.rect.width;
-            float parentHeight = parentContainer.rect.height;
-            float cellWidth = parentWidth / columns;
-            float cellHeight = parentHeight / rows;
-            float cellSize = Mathf.Min(cellWidth, cellHeight) * 0.45f; // Добавляем небольшой отступ
+                    if (!isVertical)
+                    {
+                        rows = 2;
+                        columns = 3;
+                    }  
 
-            gridLayout.cellSize = new Vector2(cellSize, cellSize + 35);
+                    else
+                    {
+                        rows = 3;
+                        columns = 2;
+                    }
+
+                    gridLayout.constraintCount = 2;
+                }
+
+                else if (cardCount == 2)
+                {
+                    rows = 2;
+                    columns = 2;
+                    gridLayout.constraintCount = 2;
+                }
+
+                else
+                {
+                    rows = 1;
+                    columns = 2;
+                    gridLayout.constraintCount = 1;
+                }
+            }
+  
+            float parentWidth = parentContainer.rect.width; 
+            float parentHeight = parentContainer.rect.height; 
+            float cellWidth = parentWidth / columns; 
+            float cellHeight = parentHeight / rows; 
+            float cellSize = Mathf.Min(cellWidth, cellHeight) * 0.6f;
+
+            if (isVertical)
+                cellSize = Mathf.Min(cellWidth, cellHeight) * 0.8f;
+ 
+            gridLayout.cellSize = new Vector2(cellSize, cellSize + 35); 
         }
 
         private void PrepareCards()
@@ -140,16 +236,14 @@ namespace CardSystem
 
         private void CreateCards()
         {
-            float startX = -Screen.width;
+            /*float startX = -Screen.width;
             float startY = GridContainer.position.y; 
-            int index = 0;
+            int index = 0;*/
             LayoutRebuilder.ForceRebuildLayoutImmediate(GridContainer as RectTransform);
             foreach (var card in gameCards)
             {
                 Card_Display cardObj = Instantiate(cardPrefab, GridContainer);
                 cardObj.Setup(card, this);
-
-                
             }
         }
 
