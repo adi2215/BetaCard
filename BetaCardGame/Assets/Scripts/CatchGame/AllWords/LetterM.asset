@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   letter: 77
   letterSprite: {fileID: 771728822, guid: 3bf9516f7600bd7449c08cd8f7930e25, type: 3}
+  sound: {fileID: 8300000, guid: bba02d513cba84449b93104cf64aaa6d, type: 3}
