@@ -29,7 +29,7 @@ namespace CardSystem
         public void Start() 
         {
             PrepareCards();
-            //UpdateGrid();
+            UpdateGrid2();
         }
 
         void UpdateGrid() 

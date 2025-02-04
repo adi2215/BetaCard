@@ -1,46 +1,58 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-public class ItemObject : MonoBehaviour
+public class ItemObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    private Vector3 offset;
-    private Camera cam;
-    private bool isDragging = false;
-
-    public ItemData itemData; 
+    public ItemData itemData;
+    private Transform afterDrag;
+    private RectTransform rectTransform;
+    private Canvas canvas;
+    private Vector2 offset;
+    public Image imageItem;
 
     private void Start()
     {
-        cam = Camera.main;
-        GetComponent<SpriteRenderer>().sprite = itemData.itemSprite;
+        rectTransform = GetComponent<RectTransform>();
+        canvas = GetComponentInParent<Canvas>();
     }
 
-    private void OnMouseDown()
+    public void OnBeginDrag(PointerEventData eventData)
     {
-        offset = transform.position - cam.ScreenToWorldPoint(Input.mousePosition);
-        isDragging = true;
+        afterDrag = transform.parent;
+        transform.SetParent(canvas.transform);
+        transform.SetAsLastSibling();
+    // Вычисляем смещение между курсором и позицией объекта
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            canvas.transform as RectTransform, 
+            eventData.position, 
+            canvas.worldCamera, 
+            out offset
+        );
+
+        offset = rectTransform.anchoredPosition - offset;
+        
+        imageItem.raycastTarget = false; // Корректируем смещение
     }
 
-    private void OnMouseDrag()
+    public void OnDrag(PointerEventData eventData)
     {
-        if (isDragging)
-        {
-            Vector3 newPosition = cam.ScreenToWorldPoint(Input.mousePosition) + offset;
-            newPosition.z = 0;
-            transform.position = newPosition;
-        }
+        if (canvas == null) return;
+
+        Vector2 localPoint;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            canvas.transform as RectTransform, 
+            eventData.position, 
+            canvas.worldCamera, 
+            out localPoint
+        );
+
+        rectTransform.anchoredPosition = localPoint + offset; // Добавляем смещение
     }
 
-    private void OnMouseUp()
+    public void OnEndDrag(PointerEventData eventData)
     {
-        isDragging = false;
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Basket"))
-        {
-            Debug.Log($"🎯 {itemData.itemName} попал в корзину!");
-            GameManager.Instance.CheckItem(gameObject.GetComponent<ItemObject>());
-        }
+        transform.SetParent(afterDrag);
+        imageItem.raycastTarget = true;
     }
 }
