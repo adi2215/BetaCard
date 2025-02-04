@@ -17,6 +17,13 @@ public class ItemObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         canvas = GetComponentInParent<Canvas>();
     }
 
+    public void Setup(ItemData data)
+    {
+        this.itemData = data;
+        
+        imageItem.sprite = data.itemSprite;
+    }
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         afterDrag = transform.parent;

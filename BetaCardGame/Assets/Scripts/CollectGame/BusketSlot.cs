@@ -8,6 +8,6 @@ public class BusketSlot : MonoBehaviour, IDropHandler
         GameObject droppedItem = eventData.pointerDrag;
         ItemObject item = droppedItem.GetComponent<ItemObject>();
         if (item.itemData.firstLetter == GameManager.Instance.word)
-            Destroy(item);
+            GameManager.Instance.CollectItem(item.gameObject);
     }
 }
