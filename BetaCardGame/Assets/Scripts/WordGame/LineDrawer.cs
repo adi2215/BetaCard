@@ -6,7 +6,7 @@ public class LineDrawer : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(2)) // ЛКМ или тап по экрану
+        if (Input.GetMouseButtonDown(1)) // ЛКМ или тап по экрану
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePos.z = 0; // Убираем глубину в 2D
