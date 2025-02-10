@@ -113,7 +113,8 @@ public class BallMover : MonoBehaviour
         Vector3 direction = GetDirection(t);
         if (direction.magnitude > 0.1f)
         {
-            arrow.rotation = new Quaternion(0, 0, direction.z);
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            arrow.rotation = Quaternion.Euler(0, 0, angle - 45);
         }
     }
 
