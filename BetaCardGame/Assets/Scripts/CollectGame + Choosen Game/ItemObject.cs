@@ -13,6 +13,7 @@ public class ItemObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     private Vector2 offset;
     public Image imageItem;
     public TextMeshProUGUI _text;
+    public AudioSource audioSound;
 
     private void Start()
     {
@@ -36,7 +37,7 @@ public class ItemObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     public void OnBeginDrag(PointerEventData eventData)
     {
         afterDrag = transform.parent;
-        //transform.SetParent(canvas.transform);
+        transform.SetParent(canvas.transform);
         transform.SetAsLastSibling();
 
         /*RectTransformUtility.ScreenPointToLocalPointInRectangle(
@@ -71,4 +72,6 @@ public class ItemObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         transform.SetParent(afterDrag);
         imageItem.raycastTarget = true;
     }
+
+    public void PlaySound() { audioSound.clip = itemData.sound;  audioSound.Play(); }
 }

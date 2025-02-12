@@ -9,6 +9,7 @@ public class WordSlot : MonoBehaviour, IDropHandler
     {
         if (transform.childCount == 0)
         {
+            Debug.Log("fef");
             GameObject droppedItem = eventData.pointerDrag;
             item = droppedItem.GetComponent<ItemObject>();
             item.afterDrag = transform;

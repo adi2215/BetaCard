@@ -94,6 +94,7 @@ MonoBehaviour:
   afterDrag: {fileID: 0}
   imageItem: {fileID: 2108389343634205646}
   _text: {fileID: 6505692206579327045}
+  audioSound: {fileID: 0}
 --- !u!1 &1570006548470237711
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,7 +106,7 @@ GameObject:
   - component: {fileID: 6138556783924209295}
   - component: {fileID: 4614704826924734699}
   - component: {fileID: 8144225840567935857}
-  - component: {fileID: 8999583015764332048}
+  - component: {fileID: 1122416397941667516}
   m_Layer: 5
   m_Name: SlotChoose
   m_TagString: Untagged
@@ -165,7 +166,7 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
---- !u!114 &8999583015764332048
+--- !u!114 &1122416397941667516
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,7 +238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Potion
   itemSprite: {fileID: 456828696, guid: 51000e87f1acf154aa89ecce587f317c, type: 3}
-  firstLetter: 80
+  sound: {fileID: 8300000, guid: 40a7f0fde2dd22a4f9993c0305698cfb, type: 3}

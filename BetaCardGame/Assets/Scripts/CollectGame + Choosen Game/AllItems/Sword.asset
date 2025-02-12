@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Sword
   itemSprite: {fileID: 21300000, guid: ceff6505446c00545bad3488ebccf93b, type: 3}
-  firstLetter: 83
+  sound: {fileID: 8300000, guid: a3daafe1777d5754184d4351bcacc3aa, type: 3}

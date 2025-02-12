@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Coin
   itemSprite: {fileID: 21300000, guid: 0a43b2802bbcc904b89fe6dd20e8ccc6, type: 3}
-  firstLetter: 67
+  sound: {fileID: 8300000, guid: f1c0c02d132c98c438091cbd1c1c1a91, type: 3}

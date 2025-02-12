@@ -9,6 +9,7 @@ public class ItemCard : MonoBehaviour
     private QuizManager quizManager;
     [SerializeField] private Image img;
     [SerializeField] private Image imgHit;
+    public AudioSource audioSound;
 
     public void Setup(LetterData data, QuizManager manager)
     {
@@ -28,4 +29,6 @@ public class ItemCard : MonoBehaviour
     {
         imgHit.color = state ? Color.yellow : Color.white;
     }
+
+    public void PlaySound() { audioSound.clip = data.sound;  audioSound.Play(); }
 }

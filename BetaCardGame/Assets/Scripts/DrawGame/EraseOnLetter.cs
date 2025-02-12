@@ -21,7 +21,7 @@ public class EraseOnLetter : MonoBehaviour
     private void Start()
     {
         letterSprite.GetComponent<SpriteRenderer>().enabled = false;
-        GenerateEraseTexture();
+        //GenerateEraseTexture();
     }
 
     private void Update()
@@ -72,8 +72,8 @@ public class EraseOnLetter : MonoBehaviour
         int positionIndex = currentLineRenderer.positionCount - 1;
         currentLineRenderer.SetPosition(positionIndex, pointPos);
 
-        EraseOnTexture(pointPos);
-        CheckEraseProgress();
+        //EraseOnTexture(pointPos);
+        //CheckEraseProgress();
     }
 
     void PointToMousePos()
@@ -87,7 +87,7 @@ public class EraseOnLetter : MonoBehaviour
     }
 
     // 🎨 Создаём слой краски (только в области буквы)
-    void GenerateEraseTexture()
+    /*void GenerateEraseTexture()
     {
         Sprite sprite = letterSprite.sprite;
         Texture2D originalTexture = sprite.texture;
@@ -175,5 +175,5 @@ public class EraseOnLetter : MonoBehaviour
         {
             Debug.Log("🎉 ПОБЕДА! Буква полностью стерта!");
         }
-    }
+    }*/
 }

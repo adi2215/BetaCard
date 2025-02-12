@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Apple
   itemSprite: {fileID: 21300000, guid: d9f8f909937f80c43896b1ea8a7208ff, type: 3}
-  firstLetter: 65
+  sound: {fileID: 8300000, guid: be1ea9401ab24ba45a38cdefb1b87553, type: 3}
