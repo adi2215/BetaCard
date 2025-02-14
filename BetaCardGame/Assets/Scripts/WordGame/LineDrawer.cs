@@ -2,16 +2,25 @@ using UnityEngine;
 
 public class LineDrawer : MonoBehaviour
 {
-    public EditableLine line; // Ссылка на нашу EditableLine
+    public EditableLine line; 
+    private Vector3? lastPoint = null; 
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(1)) // ЛКМ или тап по экрану
+        if (Input.GetMouseButtonDown(1)) 
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mousePos.z = 0; // Убираем глубину в 2D
+            mousePos.z = 0;
 
-            line.AddPoint(mousePos); // Добавляем точку в линию
+            if (lastPoint == null)
+            {
+                lastPoint = mousePos; 
+            }
+            else
+            {
+                line.AddPointPair(lastPoint.Value, mousePos); 
+                lastPoint = null; 
+            }
         }
     }
 }

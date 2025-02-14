@@ -1,114 +1,179 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(LineRenderer))]
+[System.Serializable]
+public class PointPair
+{
+    public Transform pointA;
+    public Transform pointB;
+    public Transform controlPoint1;
+    public Transform controlPoint2;
+    public LineRenderer lineRenderer;
+}
+
 public class EditableLine : MonoBehaviour
 {
-    public List<Transform> points = new List<Transform>(); // Основные точки
-    public List<List<Transform>> controlPoints = new List<List<Transform>>(); // Список контрольных точек для каждой пары
+    public List<PointPair> pointPairs = new List<PointPair>();
+    public GameObject linePrefab;
+    public int curveResolution = 20;
 
-    private LineRenderer lineRenderer;
-    public int curveResolution = 20; // Количество сегментов на один изгиб
-    public int controlPointsPerSegment = 2; // Количество контрольных точек на сегмент (2 точки)
+    public PathData pathData;
 
     void Start()
     {
-        lineRenderer = GetComponent<LineRenderer>();
-        UpdateLine();
-    }
-
-    void Update()
-    {
-        UpdateLine(); // Обновляем линию каждый кадр
-    }
-
-    public void AddPoint(Vector3 position)
-    {
-        GameObject newPoint = new GameObject("Point");
-        newPoint.transform.position = position;
-        newPoint.transform.parent = transform;
-        newPoint.AddComponent<DraggablePoint>(); // Делаем точку редактируемой!
-
-        points.Add(newPoint.transform);
-
-        if (points.Count > 1) // Если есть хотя бы 2 точки
+        if (pathData != null)
         {
-            // Убираем контрольные точки с предыдущей пары точек, если они были
-            if (controlPoints.Count >= points.Count - 1)
-            {
-                controlPoints.RemoveAt(controlPoints.Count - 1); 
-            }
-
-            AddControlPointsBetween(points[points.Count - 2], newPoint.transform);
+            pathData.LoadPath(this);
         }
-
-        UpdateLine();
     }
 
-    private void AddControlPointsBetween(Transform start, Transform end)
+    public void AddPointPair(Vector3 posA, Vector3 posB)
     {
-        List<Transform> controlPointsList = new List<Transform>();
+        GameObject pointA = CreatePoints(posA);
+        GameObject pointB = CreatePoints(posB);
 
-        // Создаем только две контрольные точки между start и end
-        for (int i = 1; i <= controlPointsPerSegment; i++)
+        GameObject ctrl1 = CreatePoints(Vector3.Lerp(posA, posB, 0.3f));
+        GameObject ctrl2 = CreatePoints(Vector3.Lerp(posA, posB, 0.7f));
+
+        LineRenderer newLine = new GameObject("LineRenderer").AddComponent<LineRenderer>();
+        newLine.transform.SetParent(transform);
+        SetupLineRenderer(newLine);
+
+        PointPair pair = new PointPair
         {
-            float t = i / (float)(controlPointsPerSegment + 1); // Равномерное распределение контрольных точек
+            pointA = pointA.transform,
+            pointB = pointB.transform,
+            controlPoint1 = ctrl1.transform,
+            controlPoint2 = ctrl2.transform,
+            lineRenderer = newLine
+        };
 
-            Vector3 controlPointPosition = Vector3.Lerp(start.position, end.position, t); // Линейное распределение точек
-            GameObject controlPoint = new GameObject("ControlPoint");
-            controlPoint.transform.position = controlPointPosition;
-            controlPoint.transform.parent = transform;
-            controlPoint.AddComponent<DraggablePoint>(); // Можно двигать
-
-            controlPointsList.Add(controlPoint.transform);
-        }
-
-        controlPoints.Add(controlPointsList);
+        pointPairs.Add(pair);
+        UpdateLine(pair);
     }
 
-    public void UpdateLine()
+    private GameObject CreatePoints(Vector3 position)
     {
-        if (points.Count < 2) return;
+        GameObject point = new GameObject("Point");
+        point.transform.position = position;
+        point.transform.SetParent(transform);
 
-        List<Vector3> curvedPoints = GenerateCurve(); // Генерируем плавную кривую
+        CircleCollider2D collider = point.AddComponent<CircleCollider2D>();
+        collider.radius = 0.2f;
 
-        lineRenderer.positionCount = curvedPoints.Count;
-        lineRenderer.SetPositions(curvedPoints.ToArray());
+        point.AddComponent<DraggablePoint>();
+        return point;
     }
 
-    public List<Vector3> GenerateCurve()
+    private void SetupLineRenderer(LineRenderer lr)
+    {
+        lr.startWidth = 0.1f;
+        lr.endWidth = 0.1f;
+        lr.positionCount = 0;
+        lr.useWorldSpace = true;
+    }
+
+    public void UpdateLine(PointPair pair)
     {
         List<Vector3> curvePoints = new List<Vector3>();
 
-        for (int i = 0; i < points.Count - 1; i++)
+        for (int i = 0; i <= curveResolution; i++)
         {
-            Vector3 p0 = points[i].position;
-            Vector3 p3 = points[i + 1].position;
-
-            // Используем две контрольные точки для кривой
-            List<Transform> controlPointList = controlPoints[i];
-            Vector3 p1 = controlPointList[0].position;
-            Vector3 p2 = controlPointList[1].position;
-
-            for (int j = 0; j <= curveResolution; j++)
-            {
-                float t = j / (float)curveResolution;
-                Vector3 curvedPoint = BezierCurve(p0, p1, p2, p3, t);
-                curvePoints.Add(curvedPoint);
-            }
+            float t = i / (float)curveResolution;
+            Vector3 point = BezierQulity.BezierCurve(
+                pair.pointA.position,
+                pair.controlPoint1.position,
+                pair.controlPoint2.position,
+                pair.pointB.position, t);
+            curvePoints.Add(point);
         }
 
-        return curvePoints;
+        pair.lineRenderer.positionCount = curvePoints.Count;
+        pair.lineRenderer.SetPositions(curvePoints.ToArray());
     }
 
-    private Vector3 BezierCurve(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t)
+    private void Update()
     {
-        float u = 1 - t;
-        float tt = t * t;
-        float uu = u * u;
-        float uuu = uu * u;
-        float ttt = tt * t;
-
-        return (uuu * p0) + (3 * uu * t * p1) + (3 * u * tt * p2) + (ttt * p3);
+        foreach (var pair in pointPairs)
+        {
+            UpdateLine(pair);
+        }
     }
+
+    public void SetLineVisibility(bool visible)
+    {
+        foreach (var pair in pointPairs)
+        {
+            pair.lineRenderer.enabled = visible;
+        }
+    }
+
+
+
+    public void ClearPairs()
+    {
+        foreach (var pair in pointPairs)
+        {
+            if (pair.lineRenderer != null)
+            {
+                Destroy(pair.lineRenderer.gameObject);
+            }
+        }
+        pointPairs.Clear();
+    }
+
+    public void AddPair(Vector3 pointA, Vector3 pointB, Vector3 controlPoint1, Vector3 controlPoint2)
+    {
+        GameObject pointAObj = CreatePoint("PointA", pointA);
+        GameObject pointBObj = CreatePoint("PointB", pointB);
+        GameObject cp1Obj = CreatePoint("ControlPoint1", controlPoint1);
+        GameObject cp2Obj = CreatePoint("ControlPoint2", controlPoint2);
+
+        LineRenderer lineRenderer = new GameObject("LineRenderer").AddComponent<LineRenderer>();
+        lineRenderer.positionCount = curveResolution;
+        lineRenderer.startWidth = 0.1f;
+        lineRenderer.endWidth = 0.1f;
+
+        PointPair newPair = new PointPair
+        {
+            pointA = pointAObj.transform,
+            pointB = pointBObj.transform,
+            controlPoint1 = cp1Obj.transform,
+            controlPoint2 = cp2Obj.transform,
+            lineRenderer = lineRenderer
+        };
+
+        pointPairs.Add(newPair);
+        UpdateLineRenderer(newPair);
+    }
+    
+    private GameObject CreatePoint(string name, Vector3 position)
+    {
+        GameObject point = new GameObject(name);
+        point.transform.position = position;
+
+        CircleCollider2D collider = point.AddComponent<CircleCollider2D>();
+        collider.radius = 0.2f;
+
+        point.AddComponent<DraggablePoint>();
+
+        return point;
+    }
+
+    private void UpdateLineRenderer(PointPair pair)
+    {
+        Vector3[] points = new Vector3[curveResolution + 1];
+        for (int i = 0; i <= curveResolution; i++)
+        {
+            float t = i / (float)curveResolution;
+            points[i] = BezierQulity.BezierCurve(
+                pair.pointA.position,
+                pair.controlPoint1.position,
+                pair.controlPoint2.position,
+                pair.pointB.position, t);
+        }
+        pair.lineRenderer.positionCount = points.Length;
+        pair.lineRenderer.SetPositions(points);
+    }
+
 }

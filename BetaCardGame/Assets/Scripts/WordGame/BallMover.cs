@@ -3,14 +3,15 @@ using UnityEngine;
 
 public class BallMover : MonoBehaviour
 {
-    public EditableLine editableLine; // Ссылка на EditableLine, которая содержит кривую
-    public float speed = 5f; // Скорость шарика
-    public Transform arrow; // Стрелка направления
+    public EditableLine editableLine; 
+    public float speed = 5f; 
+    public Transform arrow; 
 
-    private float t = 0f; // Прогресс по кривой (0 - начало, 1 - конец)
+    private int currentPairIndex = 0; 
+    private float t = 0f; 
     private bool isMoving = false;
     private bool isDragging = false;
-    
+
     private void Update()
     {
         if (isMoving && !isDragging)
@@ -24,45 +25,44 @@ public class BallMover : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Двигаем шарик по линии
-    /// </summary>
     private void MoveAlongCurve()
     {
-        t += Time.deltaTime * speed;
+        if (editableLine.pointPairs.Count == 0) return;
+
+        PointPair pair = editableLine.pointPairs[currentPairIndex];
+        t += Time.deltaTime * speed / pair.lineRenderer.positionCount;
+
         if (t >= 1f)
         {
-            t = 1f;
-            isMoving = false;
+            t = 0f;
+            currentPairIndex++;
+
+            if (currentPairIndex >= editableLine.pointPairs.Count)
+            {
+                isMoving = false; 
+                return;
+            }
         }
 
-        Vector3 position = GetPointOnCurve(t);
-        transform.position = position;
-
-        UpdateArrowDirection();
+        transform.position = GetPointOnCurve(pair, t);
+        UpdateArrowDirection(pair);
     }
 
-    /// <summary>
-    /// Перетаскиваем шар по кривой
-    /// </summary>
     private void DragAlongCurve()
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0f;
 
-        // Находим ближайшую точку на кривой
-        t = GetClosestT(mousePos);
-        transform.position = GetPointOnCurve(t);
+        PointPair pair = editableLine.pointPairs[currentPairIndex];
+        t = GetClosestT(pair, mousePos);
+        transform.position = GetPointOnCurve(pair, t);
 
-        UpdateArrowDirection();
+        UpdateArrowDirection(pair);
     }
 
-    /// <summary>
-    /// Получаем ближайший t для точки
-    /// </summary>
-    private float GetClosestT(Vector3 position)
+    private float GetClosestT(PointPair pair, Vector3 position)
     {
-        List<Vector3> curvePoints = editableLine.GenerateCurve();
+        List<Vector3> curvePoints = GetCurvePoints(pair);
         float closestT = 0f;
         float minDistance = float.MaxValue;
 
@@ -81,19 +81,14 @@ public class BallMover : MonoBehaviour
         return closestT;
     }
 
-    /// <summary>
-    /// Получаем точку на кривой на основе t
-    /// </summary>
-    private Vector3 GetPointOnCurve(float t)
+    private Vector3 GetPointOnCurve(PointPair pair, float t)
     {
-        List<Vector3> curvePoints = editableLine.GenerateCurve();
+        List<Vector3> curvePoints = GetCurvePoints(pair);
         int pointCount = curvePoints.Count;
 
         if (pointCount < 2) return transform.position;
 
         t = Mathf.Clamp01(t);
-
-        if (t == 1f) return curvePoints[pointCount - 1];
 
         int segmentCount = pointCount - 1;
         float segmentProgress = t * segmentCount;
@@ -103,14 +98,11 @@ public class BallMover : MonoBehaviour
         return Vector3.Lerp(curvePoints[segmentIndex], curvePoints[segmentIndex + 1], segmentT);
     }
 
-    /// <summary>
-    /// Обновляем направление стрелки
-    /// </summary>
-    private void UpdateArrowDirection()
+    private void UpdateArrowDirection(PointPair pair)
     {
         if (arrow == null) return;
 
-        Vector3 direction = GetDirection(t);
+        Vector3 direction = GetDirection(pair, t);
         if (direction.magnitude > 0.1f)
         {
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
@@ -118,12 +110,9 @@ public class BallMover : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Получаем направление движения
-    /// </summary>
-    private Vector3 GetDirection(float t)
+    private Vector3 GetDirection(PointPair pair, float t)
     {
-        List<Vector3> curvePoints = editableLine.GenerateCurve();
+        List<Vector3> curvePoints = GetCurvePoints(pair);
         int pointCount = curvePoints.Count;
 
         if (pointCount < 2) return Vector3.zero;
@@ -137,28 +126,49 @@ public class BallMover : MonoBehaviour
         return (curvePoints[segmentIndex + 1] - curvePoints[segmentIndex]).normalized;
     }
 
-    /// <summary>
-    /// Запускаем движение
-    /// </summary>
+    private List<Vector3> GetCurvePoints(PointPair pair)
+    {
+        List<Vector3> curvePoints = new List<Vector3>();
+
+        for (int i = 0; i <= editableLine.curveResolution; i++)
+        {
+            float t = i / (float)editableLine.curveResolution;
+            Vector3 point = BezierCurve(
+                pair.pointA.position,
+                pair.controlPoint1.position,
+                pair.controlPoint2.position,
+                pair.pointB.position, t);
+            curvePoints.Add(point);
+        }
+
+        return curvePoints;
+    }
+
+    private Vector3 BezierCurve(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t)
+    {
+        float u = 1 - t;
+        float tt = t * t;
+        float uu = u * u;
+        float uuu = uu * u;
+        float ttt = tt * t;
+
+        return (uuu * p0) + (3 * uu * t * p1) + (3 * u * tt * p2) + (ttt * p3);
+    }
+
     public void StartMoving()
     {
         isMoving = true;
         isDragging = false;
         t = 0f;
+        currentPairIndex = 0;
     }
 
-    /// <summary>
-    /// Перетаскивание: Начало
-    /// </summary>
     private void OnMouseDown()
     {
         isDragging = true;
         isMoving = false;
     }
 
-    /// <summary>
-    /// Перетаскивание: Конец
-    /// </summary>
     private void OnMouseUp()
     {
         isDragging = false;
