@@ -1,0 +1,7 @@
+Seagrass_4.png
+size:1098,1936
+filter:Linear,Linear
+pma:true
+scale:0.95
+Seagrass_4
+bounds:2,2,1094,1932

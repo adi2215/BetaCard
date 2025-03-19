@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: Jolly_boat_Atlas
+  m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: 25764011b18ea554dbe6fb7b5d2d4d18, type: 3}
+  materials:
+  - {fileID: 2100000, guid: ad199849c10967744a588e9b00dd89a9, type: 2}
+  - {fileID: 2100000, guid: bdcfa459225a9bc40b93a07c76fd4c53, type: 2}
+  - {fileID: 2100000, guid: 5d6b14fa1b77f2a4aade8de9340f95b1, type: 2}

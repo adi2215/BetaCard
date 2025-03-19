@@ -4,13 +4,16 @@ public class EraseOnLetter1 : MonoBehaviour
 {
     public Camera m_camera;
     public GameObject brush;
-    public SpriteRenderer letterSprite; // Спрайт буквы
-    public int brushSize = 5; // Размер кисти
-    public float eraseThreshold = 90f; // Процент стирания для победы
+    public Material material;
+    public SpriteRenderer letterSprite;
+    public int brushSize = 5;
 
     private Texture2D eraseTexture;
+    private LineRenderer line;
     private int totalLetterPixels = 0;
     private int erasedPixels = 0;
+    public Color[] colors;
+    public Texture2D[] textures;
     
     LineRenderer currentLineRenderer;
     Vector2 lastPos;
@@ -40,12 +43,12 @@ public class EraseOnLetter1 : MonoBehaviour
     {
         GameObject brushInstance = Instantiate(brush);
         currentLineRenderer = brushInstance.GetComponent<LineRenderer>();
+        currentLineRenderer.material = new Material(currentLineRenderer.sharedMaterial);
 
         Vector2 mousePos = m_camera.ScreenToWorldPoint(Input.mousePosition);
         currentLineRenderer.SetPosition(0, mousePos);
         currentLineRenderer.SetPosition(1, mousePos);
 
-        // Настройка ширины TrailRenderer
         if (currentLineRenderer  != null)
         {
             currentLineRenderer.positionCount = 1;
@@ -74,11 +77,23 @@ public class EraseOnLetter1 : MonoBehaviour
         }
     }
 
-    // 🎨 Создаём слой краски (только в области буквы)
+    public void ChangeColor(int NumberColor)
+    {
+        line = brush.GetComponent<LineRenderer>();
 
+        if (colors.Length == 0 || line == null) return;
+ 
+        line.sharedMaterial.SetColor("_Color", colors[NumberColor]);
+        line.sortingOrder += 1;
+    }
 
-    // 🧼 Стираем пиксели, но только в области буквы
+    public void ChangeTexture(int NumberTexture)
+    {
+        line = brush.GetComponent<LineRenderer>();
 
-
-    // ✅ Проверяем процент стирания буквы
+        if (colors.Length == 0 || line == null) return;
+ 
+        line.sharedMaterial.SetTexture("_MainTex", textures[NumberTexture]);
+        line.sortingOrder += 1;
+    }
 }

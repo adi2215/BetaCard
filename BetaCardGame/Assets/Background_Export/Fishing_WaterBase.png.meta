@@ -1,0 +1,1331 @@
+fileFormatVersion: 2
+guid: a9dfaae5b54818048a6f73c79700e8c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2328243848975985090
+    second: Fishing_WaterBase_0
+  - first:
+      213: -7262637655412945121
+    second: Fishing_WaterBase_1
+  - first:
+      213: -1925569615257497604
+    second: Fishing_WaterBase_2
+  - first:
+      213: 5064923123743148782
+    second: Fishing_WaterBase_3
+  - first:
+      213: 5943156957984019639
+    second: Fishing_WaterBase_4
+  - first:
+      213: -8547581869794238015
+    second: Fishing_WaterBase_5
+  - first:
+      213: 7078839642947400338
+    second: Fishing_WaterBase_6
+  - first:
+      213: -1015000408603462718
+    second: Fishing_WaterBase_7
+  - first:
+      213: -2099312905592800712
+    second: Fishing_WaterBase_8
+  - first:
+      213: 8584642878256611970
+    second: Fishing_WaterBase_9
+  - first:
+      213: -3364823082089955099
+    second: Fishing_WaterBase_10
+  - first:
+      213: -7980375956159489821
+    second: Fishing_WaterBase_11
+  - first:
+      213: -3668832926823047744
+    second: Fishing_WaterBase_12
+  - first:
+      213: -5145964538352249074
+    second: Fishing_WaterBase_13
+  - first:
+      213: -8064524947168030440
+    second: Fishing_WaterBase_14
+  - first:
+      213: 5870962248947009735
+    second: Fishing_WaterBase_15
+  - first:
+      213: -3714930248599658377
+    second: Fishing_WaterBase_16
+  - first:
+      213: -5113253682777890023
+    second: Fishing_WaterBase_17
+  - first:
+      213: -7160631426431285239
+    second: Fishing_WaterBase_18
+  - first:
+      213: -5311671867258573349
+    second: Fishing_WaterBase_19
+  - first:
+      213: 4259807951618019206
+    second: Fishing_WaterBase_20
+  - first:
+      213: 1639139696063065107
+    second: Fishing_WaterBase_21
+  - first:
+      213: -3143026433034917610
+    second: Fishing_WaterBase_22
+  - first:
+      213: -306697491880495224
+    second: Fishing_WaterBase_23
+  - first:
+      213: -2740390576823611413
+    second: Fishing_WaterBase_24
+  - first:
+      213: 495959463599428163
+    second: Fishing_WaterBase_25
+  - first:
+      213: -1091439475889503525
+    second: Fishing_WaterBase_26
+  - first:
+      213: -8025185653583751376
+    second: Fishing_WaterBase_27
+  - first:
+      213: 3314645860931172415
+    second: Fishing_WaterBase_28
+  - first:
+      213: 7550145800165720130
+    second: Fishing_WaterBase_29
+  - first:
+      213: 2631729854889259457
+    second: Fishing_WaterBase_30
+  - first:
+      213: 8202905741432444401
+    second: Fishing_WaterBase_31
+  - first:
+      213: 5243693753558977862
+    second: Fishing_WaterBase_32
+  - first:
+      213: -5248608584780389907
+    second: Fishing_WaterBase_33
+  - first:
+      213: -7395316625877627846
+    second: Fishing_WaterBase_34
+  - first:
+      213: 4362772677593022633
+    second: Fishing_WaterBase_35
+  - first:
+      213: -8498844398592006542
+    second: Fishing_WaterBase_36
+  - first:
+      213: -2655421645419671898
+    second: Fishing_WaterBase_37
+  - first:
+      213: 2366712383536869247
+    second: Fishing_WaterBase_38
+  - first:
+      213: -698748440629268114
+    second: Fishing_WaterBase_39
+  - first:
+      213: -4712716589341974266
+    second: Fishing_WaterBase_40
+  - first:
+      213: 580852325829744425
+    second: Fishing_WaterBase_41
+  - first:
+      213: 222972415108288736
+    second: Fishing_WaterBase_42
+  - first:
+      213: -6502359197470702545
+    second: Fishing_WaterBase_43
+  - first:
+      213: 1673402400267280732
+    second: Fishing_WaterBase_44
+  - first:
+      213: -6214287846248626515
+    second: Fishing_WaterBase_45
+  - first:
+      213: 867422190709994947
+    second: Fishing_WaterBase_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fishing_WaterBase_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1280
+        height: 1226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9a3b0f1759f4020800000000000000
+      internalID: 2328243848975985090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_1
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1201
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f4cb0188de53b90800000000000000
+      internalID: -7262637655412945121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1198
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff8a4413a00745e0800000000000000
+      internalID: -1925569615257497604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_3
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1202
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea4f55feb83a4640800000000000000
+      internalID: 5064923123743148782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_4
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1169
+        width: 37
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4570dd3c55a7250800000000000000
+      internalID: 5943156957984019639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_5
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1198
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c168529393e06980800000000000000
+      internalID: -8547581869794238015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_6
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1198
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29235d366271d3260800000000000000
+      internalID: 7078839642947400338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_7
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1202
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3705e818ef9e1f0800000000000000
+      internalID: -1015000408603462718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_8
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1097
+        width: 319
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a7fb5f80ebdd2e0800000000000000
+      internalID: -2099312905592800712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_9
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1194
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2828212e637c22770800000000000000
+      internalID: 8584642878256611970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_10
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1195
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e04ef30c3fbd41d0800000000000000
+      internalID: -3364823082089955099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_11
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1201
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e89b078952004190800000000000000
+      internalID: -7980375956159489821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_12
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1202
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd947034efa51dc0800000000000000
+      internalID: -3668832926823047744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_13
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1189
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07d1c0548cd598b0800000000000000
+      internalID: -5145964538352249074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_14
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1189
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81116c9c94d051090800000000000000
+      internalID: -8064524947168030440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_15
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1190
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8073a4f09d97150800000000000000
+      internalID: 5870962248947009735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_16
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1186
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7702dd61f9ae17cc0800000000000000
+      internalID: -3714930248599658377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_17
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1186
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913e09fddd21a09b0800000000000000
+      internalID: -5113253682777890023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_18
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1187
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908801408a350ac90800000000000000
+      internalID: -7160631426431285239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_19
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1186
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdded9444962946b0800000000000000
+      internalID: -5311671867258573349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_20
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1192
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f839733c0ed1b30800000000000000
+      internalID: 4259807951618019206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_21
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1195
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ca4197ed46fb610800000000000000
+      internalID: 1639139696063065107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_22
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1192
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6196a439c1ab164d0800000000000000
+      internalID: -3143026433034917610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_23
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1187
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887b5fe81446ebbf0800000000000000
+      internalID: -306697491880495224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_24
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1189
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befc9922a4d28f9d0800000000000000
+      internalID: -2740390576823611413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_25
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1188
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34256d2218002e600800000000000000
+      internalID: 495959463599428163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_26
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1174
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd284c1549d6ad0f0800000000000000
+      internalID: -1091439475889503525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_27
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1180
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0375495da20d0a090800000000000000
+      internalID: -8025185653583751376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_28
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1182
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38750949dcfffd20800000000000000
+      internalID: 3314645860931172415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_29
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1175
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24009455a9187c860800000000000000
+      internalID: 7550145800165720130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_30
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1179
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1f6790c58c58420800000000000000
+      internalID: 2631729854889259457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_31
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1183
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5d71c9f4396d170800000000000000
+      internalID: 8202905741432444401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_32
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1182
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d41d3cfa755c840800000000000000
+      internalID: 5243693753558977862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_33
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1175
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1691bec423927b0800000000000000
+      internalID: -5248608584780389907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_34
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1185
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c0609f5be8e5990800000000000000
+      internalID: -7395316625877627846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_35
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1172
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a046b3a2aeab8c30800000000000000
+      internalID: 4362772677593022633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_36
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1186
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276ea9c5c0a0e0a80800000000000000
+      internalID: -8498844398592006542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_37
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1179
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae80ef151c062bd0800000000000000
+      internalID: -2655421645419671898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_38
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1182
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fab3a9f5048d020800000000000000
+      internalID: 2366712383536869247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_39
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1186
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e613fe0defb8d46f0800000000000000
+      internalID: -698748440629268114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_40
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1184
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6016e252b31199eb0800000000000000
+      internalID: -4712716589341974266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_41
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1179
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9279a04ec1a9f0800800000000000000
+      internalID: 580852325829744425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_42
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1179
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e09d3dea38281300800000000000000
+      internalID: 222972415108288736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_43
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1175
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24c3c8c2caf2c5a0800000000000000
+      internalID: -6502359197470702545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_44
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1171
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51a732fd9e193710800000000000000
+      internalID: 1673402400267280732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_45
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1179
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6c258e02a62c9a0800000000000000
+      internalID: -6214287846248626515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_WaterBase_46
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 1179
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c57f8bf2e3b90c00800000000000000
+      internalID: 867422190709994947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

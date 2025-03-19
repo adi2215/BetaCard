@@ -1,0 +1,7 @@
+Seagrass_6.png
+size:773,1241
+filter:Linear,Linear
+pma:true
+scale:0.95
+Seagrass_6
+bounds:2,2,769,1237

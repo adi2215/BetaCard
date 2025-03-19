@@ -2,10 +2,19 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags:
   - Ground
   - Basket
+  - Path
+  - Fill
+  - Number
+  - Collider
+  - Start
+  - Pointer
+  - Message
+  - StarsEffect
+  - Group
   layers:
   - Default
   - TransparentFX
@@ -15,7 +24,7 @@ TagManager:
   - UI
   - Player
   - Ground
-  - 
+  - Platform
   - 
   - 
   - 
@@ -43,3 +52,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackGround
+    uniqueID: 2810617023
+    locked: 0
+  m_RenderingLayers:
+  - Default

@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: af27873d6dbce8a4daaefa95cec3b2f6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JollyH_B_A01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 255
+        width: 275
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b6a452c1d17a960800000000000000
+      internalID: 7613085701815036811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_B_A02
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: -21
+        width: 186
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa486b1150b4647f0800000000000000
+      internalID: -628732612827511638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_B_A03
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 137
+        width: 252
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1e6c04229b70010800000000000000
+      internalID: 1155095386210623950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_Body
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 882
+        width: 665
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5baa978ec3a9fa60800000000000000
+      internalID: 7708372344654965595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_Brows
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 2
+        width: 480
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1984f1062733a87e0800000000000000
+      internalID: -1762539737830176623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_ClosedEyes
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 329
+        width: 601
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4ad9962478a1390800000000000000
+      internalID: -7846810681430137663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_Highlight
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 2
+        width: 318
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402df220ed82a22d0800000000000000
+      internalID: -3302782442738298364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_Highlight_Joy
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2
+        width: 350
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0b3c653af748f50800000000000000
+      internalID: 6882766470041022632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_Iris
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 463
+        width: 604
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2650be834cd4140800000000000000
+      internalID: 4705632934412247750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_LFoot
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 576
+        width: 281
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f43793e169a07bd0800000000000000
+      internalID: -2634419544116480782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_LHand
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 521
+        width: 279
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa5585938b150000800000000000000
+      internalID: 1437626846763683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_LPupil
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 136
+        width: 435
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a271377dadc3c7d00800000000000000
+      internalID: 971718530220365610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_M_Joy
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 2
+        width: 201
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5673faa45de5a520800000000000000
+      internalID: 2712835298461709917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_M_Regular
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a7971fcf6d0e350800000000000000
+      internalID: 6044067081802578554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_M_Sad
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 126
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7f5610c9959b8b0800000000000000
+      internalID: -5135975373466110033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_REar
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 403
+        width: 411
+        height: 1290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c4eca21d09da1a0800000000000000
+      internalID: -6796617034591482734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_RFoot
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: -60
+        width: 234
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8a03e279b7059b0800000000000000
+      internalID: -5093435289310811959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyH_RHand
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 567
+        width: 295
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6888b8fe2b435a2f0800000000000000
+      internalID: -962305002246010746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyS_Body
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 724
+        width: 541
+        height: 556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566d70680b2d4a350800000000000000
+      internalID: 6027173856933303909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyS_LeftFoot
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 43
+        width: 243
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268cae307933e2e40800000000000000
+      internalID: 5633496907585865826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyS_RightFoot
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 43
+        width: 243
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c911a588c222dc70800000000000000
+      internalID: 8994289650443033032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyS_LeftHand
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 78
+        width: 271
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f263d5a3483010260800000000000000
+      internalID: 7061929557143402031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyS_LeftSleave
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 36
+        width: 198
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ceda4fe2c33c590800000000000000
+      internalID: -7655208769228510106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JollyS_RightHand
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 270
+        width: 277
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4268b8014c58b8c0800000000000000
+      internalID: -3983332436020272563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      JollyH_B_A01: 7613085701815036811
+      JollyH_B_A02: -628732612827511638
+      JollyH_B_A03: 1155095386210623950
+      JollyH_Body: 7708372344654965595
+      JollyH_Brows: -1762539737830176623
+      JollyH_ClosedEyes: -7846810681430137663
+      JollyH_Highlight: -3302782442738298364
+      JollyH_Highlight_Joy: 6882766470041022632
+      JollyH_Iris: 4705632934412247750
+      JollyH_LFoot: -2634419544116480782
+      JollyH_LHand: 1437626846763683
+      JollyH_LPupil: 971718530220365610
+      JollyH_M_Joy: 2712835298461709917
+      JollyH_M_Regular: 6044067081802578554
+      JollyH_M_Sad: -5135975373466110033
+      JollyH_REar: -6796617034591482734
+      JollyH_RFoot: -5093435289310811959
+      JollyH_RHand: -962305002246010746
+      JollyS_Body: 6027173856933303909
+      JollyS_LeftFoot: 5633496907585865826
+      JollyS_LeftHand: 7061929557143402031
+      JollyS_LeftSleave: -7655208769228510106
+      JollyS_RightFoot: 8994289650443033032
+      JollyS_RightHand: -3983332436020272563
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
