@@ -1,0 +1,7 @@
+Buble.png
+size:862,902
+filter:Linear,Linear
+pma:true
+scale:0.95
+Change the color here
+bounds:2,2,858,898

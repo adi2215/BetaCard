@@ -15,6 +15,7 @@ TagManager:
   - Message
   - StarsEffect
   - Group
+  - Coin
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 05601925ae95a7646af944757d65fc8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4068171092534513990
+    second: Fishing_Island_0
+  - first:
+      213: 8151697095572470457
+    second: Fishing_Island_1
+  - first:
+      213: -4680580459119538043
+    second: Fishing_Island_2
+  - first:
+      213: 8111029195459596280
+    second: Fishing_Island_3
+  - first:
+      213: 3655442727114513681
+    second: Fishing_Island_4
+  - first:
+      213: -7364841098360392840
+    second: Fishing_Island_5
+  - first:
+      213: 7921184325519311268
+    second: Fishing_Island_6
+  - first:
+      213: -989827434967446933
+    second: Fishing_Island_7
+  - first:
+      213: -4717357743368565084
+    second: Fishing_Island_8
+  - first:
+      213: 4496440515891184773
+    second: Fishing_Island_9
+  - first:
+      213: -6483823007508582617
+    second: Fishing_Island_10
+  - first:
+      213: -1410916623304980162
+    second: Fishing_Island_11
+  - first:
+      213: 9056525976536361953
+    second: Fishing_Island_12
+  - first:
+      213: -4252386803338044053
+    second: Fishing_Island_13
+  - first:
+      213: -1482279854814838406
+    second: Fishing_Island_14
+  - first:
+      213: -7805761711763781869
+    second: Fishing_Island_15
+  - first:
+      213: 4984768491903908015
+    second: Fishing_Island_16
+  - first:
+      213: -7957876365620784324
+    second: Fishing_Island_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fishing_Island_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1456
+        width: 451
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abea7f702f3fa87c0800000000000000
+      internalID: -4068171092534513990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_1
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1432
+        width: 413
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba3e22a155a02170800000000000000
+      internalID: 8151697095572470457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_2
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1520
+        width: 459
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5809b870fdc3b0fb0800000000000000
+      internalID: -4680580459119538043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_3
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1481
+        width: 384
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff0136441a209070800000000000000
+      internalID: 8111029195459596280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_4
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1260
+        width: 167
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d127efacdbab230800000000000000
+      internalID: 3655442727114513681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 405
+        width: 448
+        height: 1051
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873f709aa04dac990800000000000000
+      internalID: -7364841098360392840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_6
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1190
+        width: 436
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a188f20d23bded60800000000000000
+      internalID: 7921184325519311268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_7
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1150
+        width: 417
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a44d5313d6342f0800000000000000
+      internalID: -989827434967446933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_8
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1271
+        width: 399
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae04144024988eb0800000000000000
+      internalID: -4717357743368565084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 405
+        width: 411
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5844e5773d0966e30800000000000000
+      internalID: 4496440515891184773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_10
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 872
+        width: 465
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f22f2d355d406a0800000000000000
+      internalID: -6483823007508582617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_11
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 587
+        width: 636
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3986347eca6b6ce0800000000000000
+      internalID: -1410916623304980162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_12
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 872
+        width: 182
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb2c82646e3fad70800000000000000
+      internalID: 9056525976536361953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_13
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 834
+        width: 225
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d1a738bbc7cf4c0800000000000000
+      internalID: -4252386803338044053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_14
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 834
+        width: 210
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a714b045352ed6be0800000000000000
+      internalID: -1482279854814838406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_15
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 405
+        width: 933
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31789f0741d5ca390800000000000000
+      internalID: -7805761711763781869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_16
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 587
+        width: 369
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8fd7f68847d2540800000000000000
+      internalID: 4984768491903908015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fishing_Island_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 1947
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3352bcab91ff8190800000000000000
+      internalID: -7957876365620784324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fishing_Island_0: -4068171092534513990
+      Fishing_Island_1: 8151697095572470457
+      Fishing_Island_10: -6483823007508582617
+      Fishing_Island_11: -1410916623304980162
+      Fishing_Island_12: 9056525976536361953
+      Fishing_Island_13: -4252386803338044053
+      Fishing_Island_14: -1482279854814838406
+      Fishing_Island_15: -7805761711763781869
+      Fishing_Island_16: 4984768491903908015
+      Fishing_Island_17: -7957876365620784324
+      Fishing_Island_2: -4680580459119538043
+      Fishing_Island_3: 8111029195459596280
+      Fishing_Island_4: 3655442727114513681
+      Fishing_Island_5: -7364841098360392840
+      Fishing_Island_6: 7921184325519311268
+      Fishing_Island_7: -989827434967446933
+      Fishing_Island_8: -4717357743368565084
+      Fishing_Island_9: 4496440515891184773
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

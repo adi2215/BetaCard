@@ -134,7 +134,7 @@ MonoBehaviour:
   physicsMovementRelativeTo: {fileID: 0}
   updateTiming: 1
   unscaledTime: 0
-  _animationName: 
+  _animationName: Fish_Idle
   loop: 1
   timeScale: 1
 --- !u!114 &9009901323388130886
@@ -152,6 +152,12 @@ MonoBehaviour:
   speed: 4
   fishTook: 0
   letter_Img: {fileID: 215657764139126894}
+  _skeletonAnimation: {fileID: 5759144800886059271}
+  availableSkins:
+  - Fish_1
+  - Fish_2
+  - Fish_3
+  - Fish_4
 --- !u!210 &7840192934957054673
 SortingGroup:
   m_ObjectHideFlags: 0

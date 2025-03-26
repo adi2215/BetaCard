@@ -18,6 +18,8 @@ public class FishSpawn : MonoBehaviour
 
     public TakeFish gameLetters;
 
+    public string[] skins;
+
     private void OnEnable()
     {
         InvokeRepeating(nameof(Spawn), spawnTime, spawnRate);
@@ -43,6 +45,8 @@ public class FishSpawn : MonoBehaviour
         fishes.GetComponent<Fish>().giveLetter(letter_Current.itemName);
 
         fishes.GetComponent<Fish>().giveImageLetter(letter_Current.itemSprite);
+
+        fishes.GetComponent<Fish>().giveSkin(Random.Range(0, skins.Length - 1));
 
         if (transform.localScale.x == 1)
         {
