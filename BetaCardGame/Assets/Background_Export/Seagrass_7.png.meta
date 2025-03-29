@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Seagrass_7_0: -544056874074577922
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

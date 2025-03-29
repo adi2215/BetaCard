@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: LetterH
   m_EditorClassIdentifier: 
   pointPairs:
-  - pointA: {x: -4.4210014, y: 1.3150144, z: 0}
-    pointB: {x: -4.4602547, y: -2.7085373, z: 0}
-    controlPoint1: {x: -6.0225716, y: 0.24533871, z: 0}
-    controlPoint2: {x: -2.112855, y: -1.9921491, z: 0}
-  - pointA: {x: 3.4494603, y: 1.3150144, z: 0}
-    pointB: {x: 3.5868497, y: -2.6496563, z: 0}
-    controlPoint1: {x: 1.508341, y: 0.20412078, z: 0}
-    controlPoint2: {x: 5.5083413, y: -1.6957802, z: 0}
-  - pointA: {x: -6.324829, y: 1.7468101, z: 0}
-    pointB: {x: 4.0971546, y: 2.4926405, z: 0}
-    controlPoint1: {x: -1.5142298, y: 2.9440634, z: 0}
-    controlPoint2: {x: -3.2060847, y: -3.6898923, z: 0}
+  - pointA: {x: -5.3631024, y: 2.8459263, z: 0}
+    pointB: {x: -5.4416084, y: -4.141315, z: 0}
+    controlPoint1: {x: -5.571149, y: 0.91265976, z: 0}
+    controlPoint2: {x: -5.312069, y: -2.6790974, z: 0}
+  - pointA: {x: 3.2531898, y: 2.6104026, z: 0}
+    pointB: {x: 3.0765429, y: -3.9842978, z: 0}
+    controlPoint1: {x: 3.1373892, y: 0.6359165, z: 0}
+    controlPoint2: {x: 3.310108, y: -1.8135437, z: 0}
+  - pointA: {x: -5.4219837, y: -0.72620213, z: 0}
+    pointB: {x: 3.1746802, y: -0.6084391, z: 0}
+    controlPoint1: {x: -3.4965656, y: -0.6084394, z: 0}
+    controlPoint2: {x: 1.641806, y: -0.80471075, z: 0}
