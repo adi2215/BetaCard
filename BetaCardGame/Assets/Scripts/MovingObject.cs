@@ -6,33 +6,40 @@ public class MovingObject : MonoBehaviour
     private ItemData letter;
     public SpriteRenderer letter_Img;
 
+    private bool moveObj = true;
+
     public void giveLetter(ItemData _letter) => letter = _letter;
 
     public void giveImageLetter(Sprite _letter) => letter_Img.sprite = _letter;
 
     void Update()
     {
-        transform.position += Vector3.left * speed * Time.deltaTime;
-        
-        if (transform.position.x < -10f)
+        if (moveObj)
         {
-            Destroy(gameObject);
+            transform.position += Vector3.left * speed * Time.deltaTime;
+        
+            if (transform.position.x < -10f)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && moveObj)
         {
             Debug.Log("Объект коснулся героя!");
+
+            CircleCollider2D collider = gameObject.GetComponent<CircleCollider2D>();
+            collider.enabled = false;
 
             CollectorManager player = collision.GetComponent<CollectorManager>();
             if (player != null)
             {
-                player.CatchLetter(letter);
+                moveObj = false;
+                player.CatchLetter(this, letter);
             }
-
-            Destroy(gameObject, 0.1f);
         }
     }
 }

@@ -273,7 +273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointPairs: []
   linePrefab: {fileID: 4002747969944640066, guid: ef5ab37f123da454089a893c8e844f5a, type: 3}
-  curveResolution: 20
+  curveResolution: 40
   pathData: {fileID: 11400000, guid: 1222dda22d9816c47909cd56a8ceb0bb, type: 2}
 --- !u!1 &519420028
 GameObject:

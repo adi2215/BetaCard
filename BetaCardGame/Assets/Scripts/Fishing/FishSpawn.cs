@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Spine.Unity;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
@@ -51,7 +52,7 @@ public class FishSpawn : MonoBehaviour
         if (transform.localScale.x == 1)
         {
             fishes.GetComponent<Fish>().fishDirection(Vector3.left);
-            fishes.GetComponent<SortingGroup>().sortingOrder = 5;
+            fishes.GetComponent<SortingGroup>().sortingOrder = 4;
         }
 
         else if (transform.localScale.x == -1)
@@ -63,6 +64,9 @@ public class FishSpawn : MonoBehaviour
                 transformCanva.localScale.y * transform.localScale.y,
                 transformCanva.localScale.z * transform.localScale.z
             );
+            fishes.GetComponent<SortingGroup>().sortingOrder = 5;
+
+            fishes.GetComponentInChildren<Canvas>().sortingOrder = 5;
         }
 
         fishes.transform.position += Vector3.up * Random.Range(minHeight, maxHeight);

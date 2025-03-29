@@ -14,21 +14,29 @@ public class PathFinderAgent : MonoBehaviour
 
     public GameObject imgWin;
 
+    public LightSystem lightSystem;
+
+    public Vector3Int startPosition;
+
+    private Vector3 lastPosition;
+
+    bool walk = true;
+
     void Start()
     {
-        SetAnimation("Warmup"); 
+        skeletonAnimation.AnimationState.SetAnimation(0, "Jolly_idle", true);
+        startPosition = Vector3Int.FloorToInt(transform.position);
+        lightSystem.InitializeLight(startPosition);
+        lastPosition = transform.position;
     }
 
     public void MoveTo(Vector3Int target)
     {
+        if (!lightSystem.IsTileLit(target)) return;
+
         path = pathfinder.FindPath(Vector3Int.FloorToInt(transform.position), target);
         pathIndex = 0;
-
-        if (path != null && path.Count > 0)
-        {
-            isMoving = true;
-            SetAnimation("Idle_running"); 
-        }
+        walk = true;
     }
 
     void Update()
@@ -38,25 +46,40 @@ public class PathFinderAgent : MonoBehaviour
             if (isMoving)
             {
                 isMoving = false;
-                SetAnimation("Warmup"); 
+                skeletonAnimation.AnimationState.SetAnimation(0, "Jolly_idle", true);
             }
             return;
         }
 
         Vector3 targetWorldPos = path[pathIndex] + new Vector3(0.5f, 0.5f, 0);
         transform.position = Vector3.MoveTowards(transform.position, targetWorldPos, 3f * Time.deltaTime);
+        
+        float epsilon = 0.01f;
+        if (Vector3.Distance(transform.position, targetWorldPos) > epsilon && walk)
+        {
+            UpdateAnimation((transform.position - targetWorldPos).normalized);
+        }
 
         if (Vector3.Distance(transform.position, targetWorldPos) < 0.1f)
         {
+            Debug.Log(path[pathIndex]);
+            lightSystem.UpdateLight(path[pathIndex]);
             pathIndex++;
         }
     }
 
-    void SetAnimation(string animationName)
+
+    void UpdateAnimation(Vector3 direction)
     {
-        if (skeletonAnimation != null)
+        if (direction.x < 0) // Влево
         {
-            skeletonAnimation.AnimationState.SetAnimation(0, animationName, true);
+            skeletonAnimation.AnimationState.SetAnimation(0, "Jolly_move_foreward", true);
+            transform.localScale = new Vector3(1, 1, 1) * 0.09f;
+        }
+        else if (direction.x > 0) // Вправо
+        {
+            skeletonAnimation.AnimationState.SetAnimation(0, "Jolly_move_foreward", true);
+            transform.localScale = new Vector3(1, 1, 1) * 0.09f; // ✅ Разворачиваем по X
         }
     }
 
@@ -66,6 +89,9 @@ public class PathFinderAgent : MonoBehaviour
         {
             Destroy(collision.gameObject);
             coinCount++;
+
+            isMoving = false;
+            skeletonAnimation.AnimationState.SetAnimation(0, "Jolly_happy", false); 
 
             Debug.Log("Монет собрано: " + coinCount);
 

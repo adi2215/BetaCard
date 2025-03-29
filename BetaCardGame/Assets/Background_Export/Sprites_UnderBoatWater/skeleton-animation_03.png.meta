@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      skeleton-animation_03_0: 7503194806126738026
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

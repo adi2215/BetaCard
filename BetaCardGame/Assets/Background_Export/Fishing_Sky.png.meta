@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fishing_Sky_0: 1317244935630855473
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

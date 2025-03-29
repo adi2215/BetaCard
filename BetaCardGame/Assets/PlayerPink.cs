@@ -1,3 +1,6 @@
+using System.Collections;
+using DG.Tweening;
+using Spine.Unity;
 using UnityEngine;
 
 public class PlayerPink : MonoBehaviour
@@ -26,23 +29,39 @@ public class PlayerPink : MonoBehaviour
     private CapsuleCollider2D _cap;
 
     public LayerMask layerMask;
+    public SkeletonAnimation skeletonAnimation;
 
     public Transform groundCheck;
     public LayerMask groundLayer;
     public float groundCheckRadius = 0.2f;
     
     private bool isGrounded;
+    private bool gameStarted = false;
+
+    public GameObject spawn;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
         _cap = GetComponent<CapsuleCollider2D>();
+        skeletonAnimation.AnimationState.SetAnimation(0, "Warmup", true);
         
+        StartCoroutine(StartGameAfterDelay(5f));
+    }
+
+    private IEnumerator StartGameAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        skeletonAnimation.AnimationState.SetAnimation(0, "Idle_running", true);
+        spawn.SetActive(true);
+        gameStarted = true;
     }
 
     void Update()
     {
+        if (!gameStarted)
+            return;
+
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
