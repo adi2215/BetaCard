@@ -1,16 +1,15 @@
+using TMPro;
 using UnityEngine;
 
 public class MovingObject : MonoBehaviour
 {
     public float speed;
     private ItemData letter;
-    public SpriteRenderer letter_Img;
+    public TextMeshProUGUI letter_Img;
 
     private bool moveObj = true;
 
-    public void giveLetter(ItemData _letter) => letter = _letter;
-
-    public void giveImageLetter(Sprite _letter) => letter_Img.sprite = _letter;
+    public void giveLetter(ItemData _letter) { letter = _letter; letter_Img.text = _letter.itemName; }
 
     void Update()
     {

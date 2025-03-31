@@ -26,8 +26,6 @@ public class ObjectSpawner : MonoBehaviour
 
         spawnedObject.GetComponent<MovingObject>().giveLetter(letter_Current);
 
-        spawnedObject.GetComponent<MovingObject>().giveImageLetter(letter_Current.itemSprite);
-
         spawnedObject.transform.position += Vector3.up * Random.Range(minHeight, maxHeight);
     }
 

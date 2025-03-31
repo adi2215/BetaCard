@@ -524,7 +524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20290c3c8a463ae409ee210edfdc3323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpHeight: 4
+  jumpHeight: 3
   jumpTime: 1
   vel: {x: 0, y: 0}
   dustEffect: {fileID: 0}
@@ -555,7 +555,6 @@ MonoBehaviour:
   letters:
   - {fileID: 11400000, guid: d6db975af25240549a687a31bda4dc99, type: 2}
   - {fileID: 11400000, guid: fb83c86b8a57074479d2e7d245a37ba7, type: 2}
-  - {fileID: 11400000, guid: d19e61bf307fb5049b30b2713fa3dfae, type: 2}
   - {fileID: 11400000, guid: bb71204978121a247b338f98df4c6e43, type: 2}
   - {fileID: 11400000, guid: 18f7200b3e404444082217b7e5f65c26, type: 2}
   Current_letters:

@@ -7,15 +7,10 @@ using UnityEngine.UI;
 public class CollectorManager : MonoBehaviour
 {
     public ItemData[] letters;
-
     public List<ItemData> Current_letters = new List<ItemData>();
-
     public List<Image> images = new List<Image>();
-
     public List<Transform> imagesPos = new List<Transform>();
-
     public GameObject img;
-
     private bool gameOver = false;
 
     public void CatchLetter(MovingObject letterObj, ItemData item)
@@ -23,45 +18,45 @@ public class CollectorManager : MonoBehaviour
         if (!gameOver)
         {
             bool notLetter = true;
-            int index = 0;
 
-            foreach (ItemData letter in Current_letters)
+            for (int i = 0; i < Current_letters.Count; i++)
             {
-                if (letter.Equals(item))
+                if (Current_letters[i].Equals(item)) 
                 {
-                    SetTransparency(1f, images[index]);
-                    images.Remove(images[index]);
+                    StartCoroutine(SlowMotionEffect());
+                    SetTransparency(1f, images[i]);
+                    StartCoroutine(MoveAndDestroy(letterObj, imagesPos[i]));
 
-                    Current_letters.Remove(letter);
+                    images.RemoveAt(i);
+                    imagesPos.RemoveAt(i);
+                    Current_letters.RemoveAt(i);
 
-                    StartCoroutine(MoveAndDestroy(letterObj, imagesPos[index]));
-                    imagesPos.Remove(imagesPos[index]);
                     notLetter = false;
-                        
+                    gameOver = true;
                     break;
                 }
-
-                index++;
             }
 
             if (notLetter)
             {
-                Debug.Log("Delete77");
+                Debug.Log(letterObj.name + " не найден в Current_letters, удаляю.");
                 Destroy(letterObj.gameObject, 0.05f);
                 return;
             }
-            
+
             if (Current_letters.Count == 0)
             {
                 gameOver = true;
-                img.SetActive(true); 
+                img.SetActive(true);
             }
         }
     }
 
+
+
     private IEnumerator MoveAndDestroy(MovingObject moveObj, Transform targetPosition)
     {
-        float duration = 0.5f;
+        float duration = 0.7f;
         float elapsedTime = 0f;
         Vector3 startPos = moveObj.transform.position;
         Vector3 startScale = moveObj.transform.localScale;
@@ -69,11 +64,8 @@ public class CollectorManager : MonoBehaviour
         while (elapsedTime < duration)
         {
             float progress = elapsedTime / duration;
-
             moveObj.transform.position = Vector3.Lerp(startPos, targetPosition.position, progress);
-            
             moveObj.transform.localScale = Vector3.Lerp(startScale, Vector3.zero, progress);
-
             elapsedTime += Time.deltaTime * 2f;
             yield return null;
         }
@@ -82,13 +74,45 @@ public class CollectorManager : MonoBehaviour
         moveObj.transform.localScale = Vector3.zero;
 
         if (moveObj.gameObject != null)
-            Destroy(moveObj.gameObject, 0.3f);
+        {
+            Destroy(moveObj.gameObject, 0.05f);
+            gameOver = false;
+        }
+    }
+
+    private IEnumerator SlowMotionEffect()
+    {
+        float slowMotionTimeScale = 0.3f;
+        float transitionTime = 0.5f;
+
+        float elapsedTime = 0f;
+        float startScale = Time.timeScale;
+
+        while (elapsedTime < transitionTime)
+        {
+            Time.timeScale = Mathf.Lerp(startScale, slowMotionTimeScale, elapsedTime / transitionTime);
+            elapsedTime += Time.unscaledDeltaTime;
+            yield return null;
+        }
+
+        Time.timeScale = slowMotionTimeScale;
+        yield return new WaitForSecondsRealtime(0.4f);
+
+        elapsedTime = 0f;
+        while (elapsedTime < transitionTime)
+        {
+            Time.timeScale = Mathf.Lerp(slowMotionTimeScale, 1f, elapsedTime / transitionTime);
+            elapsedTime += Time.unscaledDeltaTime;
+            yield return null;
+        }
+
+        Time.timeScale = 1f;
     }
 
     public void SetTransparency(float alpha, Image img)
     {
-        Color color = img.color; 
-        color.a = alpha; 
+        Color color = img.color;
+        color.a = alpha;
         img.color = color;
     }
 }
