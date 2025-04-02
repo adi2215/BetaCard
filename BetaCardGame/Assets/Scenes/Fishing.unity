@@ -1007,6 +1007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSpeed: 0.03
+  delayBeforeStart: 10
 --- !u!210 &483056246
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -2119,7 +2120,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: -2864648034752714433, guid: fe8f2343782143645b0a867d633a8e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2483,6 +2484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSpeed: 0.08
+  delayBeforeStart: 10
 --- !u!210 &1799672760
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -2596,6 +2598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSpeed: 0.02
+  delayBeforeStart: 10
 --- !u!210 &1838528456
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -7699,6 +7702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSpeed: 0.08
+  delayBeforeStart: 10
 --- !u!210 &2012563010
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -8096,6 +8100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSpeed: 0.05
+  delayBeforeStart: 10
 --- !u!210 &2359047295548284868
 SortingGroup:
   m_ObjectHideFlags: 0
