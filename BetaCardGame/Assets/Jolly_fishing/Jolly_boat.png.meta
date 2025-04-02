@@ -1,0 +1,1534 @@
+fileFormatVersion: 2
+guid: a71e5d1dff9e73141be6fe37cc4482f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5816677729063433903
+    second: Jolly_boat_0
+  - first:
+      213: 6422239679635822699
+    second: Jolly_boat_1
+  - first:
+      213: -7483166999873815594
+    second: Jolly_boat_2
+  - first:
+      213: 8821076060004342316
+    second: Jolly_boat_3
+  - first:
+      213: -3159753673699468705
+    second: Jolly_boat_4
+  - first:
+      213: 3823821468091404244
+    second: Jolly_boat_5
+  - first:
+      213: 5373873864077983457
+    second: Jolly_boat_6
+  - first:
+      213: 1265140915762365351
+    second: Jolly_boat_7
+  - first:
+      213: -4154911233084442904
+    second: Jolly_boat_8
+  - first:
+      213: 270558250886511193
+    second: Jolly_boat_9
+  - first:
+      213: -2931701235683501646
+    second: Jolly_boat_10
+  - first:
+      213: -767447119092696947
+    second: Jolly_boat_11
+  - first:
+      213: -2093484197056585820
+    second: Jolly_boat_12
+  - first:
+      213: 1796205977878153090
+    second: Jolly_boat_13
+  - first:
+      213: 1416568521419019885
+    second: Jolly_boat_14
+  - first:
+      213: 6697117896146508854
+    second: Jolly_boat_15
+  - first:
+      213: -8030337541689460738
+    second: Jolly_boat_16
+  - first:
+      213: 5618691597735931120
+    second: Jolly_boat_17
+  - first:
+      213: -2528085521239932061
+    second: Jolly_boat_18
+  - first:
+      213: 431169738248042860
+    second: Jolly_boat_19
+  - first:
+      213: 7974351648406127432
+    second: Jolly_boat_20
+  - first:
+      213: -576333673548630604
+    second: Jolly_boat_21
+  - first:
+      213: -1660970718641786931
+    second: Jolly_boat_22
+  - first:
+      213: 7696448103781667772
+    second: Jolly_boat_23
+  - first:
+      213: 3975036401063637851
+    second: Jolly_boat_24
+  - first:
+      213: -8583120460489635633
+    second: Jolly_boat_25
+  - first:
+      213: 8357548841196914903
+    second: Jolly_boat_26
+  - first:
+      213: -3951606447404634751
+    second: Jolly_boat_27
+  - first:
+      213: -5814188293605972993
+    second: Jolly_boat_28
+  - first:
+      213: 7092505098986819310
+    second: Jolly_boat_29
+  - first:
+      213: 8647557551648305811
+    second: Jolly_boat_30
+  - first:
+      213: 7847033828631787287
+    second: Jolly_boat_31
+  - first:
+      213: -2004143656716111881
+    second: Jolly_boat_32
+  - first:
+      213: 2124592164858508737
+    second: Jolly_boat_33
+  - first:
+      213: -4635331597024444346
+    second: Jolly_boat_34
+  - first:
+      213: -8915801864076687469
+    second: Jolly_boat_35
+  - first:
+      213: 5952544929577442869
+    second: Jolly_boat_36
+  - first:
+      213: 9126021308348906733
+    second: Jolly_boat_37
+  - first:
+      213: 8153599546325747975
+    second: Jolly_boat_38
+  - first:
+      213: -3179879736992644230
+    second: Jolly_boat_39
+  - first:
+      213: -1239478808584295372
+    second: Jolly_boat_40
+  - first:
+      213: 3136261842052166277
+    second: Jolly_boat_41
+  - first:
+      213: 6277517876866636049
+    second: Jolly_boat_42
+  - first:
+      213: -4000602797109010881
+    second: Jolly_boat_43
+  - first:
+      213: -505063632136468636
+    second: Jolly_boat_44
+  - first:
+      213: -8708097738542518543
+    second: Jolly_boat_45
+  - first:
+      213: 2696714296616028855
+    second: Jolly_boat_46
+  - first:
+      213: -8203571926771075125
+    second: Jolly_boat_47
+  - first:
+      213: 1805240483414275546
+    second: Jolly_boat_48
+  - first:
+      213: -4910056978435384117
+    second: Jolly_boat_49
+  - first:
+      213: 4503850898627071777
+    second: Jolly_boat_50
+  - first:
+      213: 7528510592099605811
+    second: Jolly_boat_51
+  - first:
+      213: -7373806900030687642
+    second: Jolly_boat_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jolly_boat_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1639
+        width: 1965
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa670c5939df8b050800000000000000
+      internalID: 5816677729063433903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1397
+        width: 1965
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b689c1f46f0602950800000000000000
+      internalID: 6422239679635822699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1179
+        width: 1713
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db7899d243762890800000000000000
+      internalID: -7483166999873815594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 502
+        width: 518
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ad245c0f1ca6a70800000000000000
+      internalID: 8821076060004342316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_4
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 725
+        width: 992
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a586d56cc4624d0800000000000000
+      internalID: -3159753673699468705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_5
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 726
+        width: 479
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfc912ad51f01530800000000000000
+      internalID: 3823821468091404244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 250
+        width: 265
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eebf10bec5d39a40800000000000000
+      internalID: 5373873864077983457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 259
+        width: 295
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a304dab5feae8110800000000000000
+      internalID: 1265140915762365351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_8
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 326
+        width: 413
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6b8b64f3ac656c0800000000000000
+      internalID: -4154911233084442904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_9
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 410
+        width: 980
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a3423bb4731c300800000000000000
+      internalID: 270558250886511193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 76
+        width: 151
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9d28b42418057d0800000000000000
+      internalID: -2931701235683501646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_11
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 101
+        width: 180
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88359a49ea7955f0800000000000000
+      internalID: -767447119092696947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_12
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 103
+        width: 185
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af5c8be63372f2e0800000000000000
+      internalID: -2093484197056585820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_13
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 105
+        width: 164
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2874cd6f1d76de810800000000000000
+      internalID: 1796205977878153090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_14
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 106
+        width: 193
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d665e2f9099a8a310800000000000000
+      internalID: 1416568521419019885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_15
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 147
+        width: 183
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c59b26e31f0fc50800000000000000
+      internalID: 6697117896146508854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_16
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 156
+        width: 196
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7bd196d828e8090800000000000000
+      internalID: -8030337541689460738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_17
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 175
+        width: 202
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fca5813d3a99fd40800000000000000
+      internalID: 5618691597735931120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_18
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 184
+        width: 279
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3638fa0ec9f6aecd0800000000000000
+      internalID: -2528085521239932061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_19
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 196
+        width: 312
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c693c2ea792dbf500800000000000000
+      internalID: 431169738248042860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_20
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 62
+        width: 170
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8434c4503969aae60800000000000000
+      internalID: 7974351648406127432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 11
+        width: 153
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5b904d3937008f0800000000000000
+      internalID: -576333673548630604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_22
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 11
+        width: 136
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfe70d7eeb03f8e0800000000000000
+      internalID: -1660970718641786931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_23
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 11
+        width: 116
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3922ad5c64fca60800000000000000
+      internalID: 7696448103781667772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_24
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 13
+        width: 148
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5335aecb8a2a2730800000000000000
+      internalID: 3975036401063637851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_25
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 11
+        width: 144
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8c020aa61a2e880800000000000000
+      internalID: -8583120460489635633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_26
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 11
+        width: 115
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d80580146afbf370800000000000000
+      internalID: 8357548841196914903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_27
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 12
+        width: 114
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18dad426fd21929c0800000000000000
+      internalID: -3951606447404634751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_28
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 31
+        width: 117
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3a1664d8adf4fa0800000000000000
+      internalID: -5814188293605972993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_29
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 37
+        width: 146
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee81c05fc3ad6260800000000000000
+      internalID: 7092505098986819310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_30
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 47
+        width: 203
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3927eb8c6cb420870800000000000000
+      internalID: 8647557551648305811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_31
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 51
+        width: 180
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717321811b346ec60800000000000000
+      internalID: 7847033828631787287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_32
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 59
+        width: 225
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff659e66f9df24e0800000000000000
+      internalID: -2004143656716111881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_33
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1
+        width: 94
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c538fe31511c7d10800000000000000
+      internalID: 2124592164858508737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_34
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1
+        width: 119
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640c637b87efbafb0800000000000000
+      internalID: -4635331597024444346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_35
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39781fb4175b44480800000000000000
+      internalID: -8915801864076687469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_36
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1
+        width: 117
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e14055310bb9250800000000000000
+      internalID: 5952544929577442869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_37
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 2
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec38c8370426ae70800000000000000
+      internalID: 9126021308348906733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_38
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70948877697672170800000000000000
+      internalID: 8153599546325747975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_39
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7347181a3cced3d0800000000000000
+      internalID: -3179879736992644230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_40
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 2
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c65b3379c7ccee0800000000000000
+      internalID: -1239478808584295372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_41
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582b12a578d368b20800000000000000
+      internalID: 3136261842052166277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_42
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1
+        width: 107
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119dcc1df393e1750800000000000000
+      internalID: 6277517876866636049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_43
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 25
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e12eeb3f00b78c0800000000000000
+      internalID: -4000602797109010881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_44
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1
+        width: 90
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46789817d47adf8f0800000000000000
+      internalID: -505063632136468636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_45
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe6ac88e3f962780800000000000000
+      internalID: -8708097738542518543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_46
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 28
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba048e6d57ac6520800000000000000
+      internalID: 2696714296616028855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_47
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1
+        width: 96
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc771770cce072e80800000000000000
+      internalID: -8203571926771075125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_48
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5ff04b7a08d0910800000000000000
+      internalID: 1805240483414275546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_49
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 17
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc5e655139fbdbb0800000000000000
+      internalID: -4910056978435384117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 1035
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f8df5a784e08e30800000000000000
+      internalID: 4503850898627071777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_51
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ddcd9ee74aa7860800000000000000
+      internalID: 7528510592099605811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jolly_boat_52
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666b85941b9faa990800000000000000
+      internalID: -7373806900030687642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Jolly_boat_0: 5816677729063433903
+      Jolly_boat_1: 6422239679635822699
+      Jolly_boat_10: -2931701235683501646
+      Jolly_boat_11: -767447119092696947
+      Jolly_boat_12: -2093484197056585820
+      Jolly_boat_13: 1796205977878153090
+      Jolly_boat_14: 1416568521419019885
+      Jolly_boat_15: 6697117896146508854
+      Jolly_boat_16: -8030337541689460738
+      Jolly_boat_17: 5618691597735931120
+      Jolly_boat_18: -2528085521239932061
+      Jolly_boat_19: 431169738248042860
+      Jolly_boat_2: -7483166999873815594
+      Jolly_boat_20: 7974351648406127432
+      Jolly_boat_21: -576333673548630604
+      Jolly_boat_22: -1660970718641786931
+      Jolly_boat_23: 7696448103781667772
+      Jolly_boat_24: 3975036401063637851
+      Jolly_boat_25: -8583120460489635633
+      Jolly_boat_26: 8357548841196914903
+      Jolly_boat_27: -3951606447404634751
+      Jolly_boat_28: -5814188293605972993
+      Jolly_boat_29: 7092505098986819310
+      Jolly_boat_3: 8821076060004342316
+      Jolly_boat_30: 8647557551648305811
+      Jolly_boat_31: 7847033828631787287
+      Jolly_boat_32: -2004143656716111881
+      Jolly_boat_33: 2124592164858508737
+      Jolly_boat_34: -4635331597024444346
+      Jolly_boat_35: -8915801864076687469
+      Jolly_boat_36: 5952544929577442869
+      Jolly_boat_37: 9126021308348906733
+      Jolly_boat_38: 8153599546325747975
+      Jolly_boat_39: -3179879736992644230
+      Jolly_boat_4: -3159753673699468705
+      Jolly_boat_40: -1239478808584295372
+      Jolly_boat_41: 3136261842052166277
+      Jolly_boat_42: 6277517876866636049
+      Jolly_boat_43: -4000602797109010881
+      Jolly_boat_44: -505063632136468636
+      Jolly_boat_45: -8708097738542518543
+      Jolly_boat_46: 2696714296616028855
+      Jolly_boat_47: -8203571926771075125
+      Jolly_boat_48: 1805240483414275546
+      Jolly_boat_49: -4910056978435384117
+      Jolly_boat_5: 3823821468091404244
+      Jolly_boat_50: 4503850898627071777
+      Jolly_boat_51: 7528510592099605811
+      Jolly_boat_52: -7373806900030687642
+      Jolly_boat_6: 5373873864077983457
+      Jolly_boat_7: 1265140915762365351
+      Jolly_boat_8: -4154911233084442904
+      Jolly_boat_9: 270558250886511193
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

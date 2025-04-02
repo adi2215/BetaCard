@@ -1,0 +1,7 @@
+Background_fish.png
+size:1822,837
+filter:Linear,Linear
+pma:true
+scale:0.95
+fish
+bounds:2,2,1818,833

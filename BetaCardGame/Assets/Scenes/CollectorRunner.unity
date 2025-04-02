@@ -929,7 +929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7a236523fb22ac4bb2c466b6e5abaa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.15
+  animationSpeed: 0.1
   delayBeforeStart: 5
 --- !u!1 &865062688
 GameObject:
@@ -964,7 +964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7a236523fb22ac4bb2c466b6e5abaa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.25
+  animationSpeed: 0.2
   delayBeforeStart: 5
 --- !u!210 &865062690
 SortingGroup:
@@ -1101,7 +1101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7a236523fb22ac4bb2c466b6e5abaa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.25
+  animationSpeed: 0.2
   delayBeforeStart: 5
 --- !u!210 &1217895979
 SortingGroup:
@@ -1574,7 +1574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7a236523fb22ac4bb2c466b6e5abaa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.35
+  animationSpeed: 0.3
   delayBeforeStart: 5
 --- !u!210 &2073049862
 SortingGroup:
@@ -1985,7 +1985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7a236523fb22ac4bb2c466b6e5abaa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.45
+  animationSpeed: 0.4
   delayBeforeStart: 5
 --- !u!224 &3994332485918128327
 RectTransform:

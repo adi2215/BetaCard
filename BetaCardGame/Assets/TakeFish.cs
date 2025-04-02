@@ -77,7 +77,8 @@ public class TakeFish : MonoBehaviour
     {
         if (pointFish != null && !isCatching)
         {
-            skeletonAnimation.AnimationState.SetEmptyAnimation(0, 0);
+            if (!pointFish.fishTook)
+                skeletonAnimation.AnimationState.SetEmptyAnimation(0, 0);
 
             Vector3 boneWorldPosition = skeletonAnimation.transform.TransformPoint(new Vector3(lineBone.WorldX, lineBone.WorldY, 0));
 
@@ -93,11 +94,16 @@ public class TakeFish : MonoBehaviour
 
             if (Vector3.Distance(boneWorldPosition, pointFish.transform.position) < 0.1f)
             {
+
+                Debug.Log("fffe");
+
                 pointFish.fishTook = true;
+
+                skeletonAnimation.AnimationState.SetAnimation(0, "CJ_Hand_carching", true);
 
                 if (Vector3.Distance(boneWorldPosition, pointStartCatch.position) < 0.05f)
                 {
-                    StartCoroutine(PlayAnimationAfterDelay(0.4f, "CJ_carching", "CJ_idle"));
+                    StartCoroutine(PlayAnimationAfterDelay(0.01f, "CJ_Fish_catch", "CJ_idle"));
                     isCatching = true;
                 }
             }
@@ -110,11 +116,11 @@ public class TakeFish : MonoBehaviour
 
         TrackEntry catchAnimation = skeletonAnimation.AnimationState.SetAnimation(0, animationName, false);
 
-        catchAnimation.TrackTime = 0.7f;
+        catchAnimation.TrackTime = 0.01f;
 
-        StartCoroutine(AnimationDelay(4f, nextAnimation));
+        StartCoroutine(AnimationDelay(2f, nextAnimation));
 
-        Destroy(pointFish.gameObject, 2.5f);
+        Destroy(pointFish.gameObject, 0.6f);
     }
 
     private IEnumerator AnimationDelay(float delay, string nextAnimation)
@@ -124,6 +130,15 @@ public class TakeFish : MonoBehaviour
         skeletonAnimation.AnimationState.SetAnimation(0, nextAnimation, true);
         isCatching = false;
         pointFish = null;
+    }
+
+    private IEnumerator AnimationDelayCatch(float delay, string nextAnimation)
+    {
+        yield return new WaitForSeconds(delay);
+
+        Debug.Log("fe");
+
+        skeletonAnimation.AnimationState.SetAnimation(0, nextAnimation, true);
     }
 
     public void SetTransparency(float alpha, Image img)
