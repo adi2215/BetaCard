@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Letter : MonoBehaviour
 {
-    private char letterValue;
+    private string letterValue;
     public SpriteRenderer spriteRenderer;
     private float fallSpeed = 10f;
 

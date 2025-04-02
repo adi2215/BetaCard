@@ -26,7 +26,7 @@ public class PlayerCatcher : MonoBehaviour
         transform.position = newPosition;
     }
 
-    public void CatchLetter(char caughtLetter)
+    public void CatchLetter(string caughtLetter)
     {
         if (caughtLetter == CatchManager.Instance.GetCurrentTarget())
         {

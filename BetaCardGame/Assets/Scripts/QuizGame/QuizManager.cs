@@ -11,7 +11,7 @@ public class QuizManager : MonoBehaviour
     public Button playSoundButton; 
     public TextMeshProUGUI resultText; 
 
-    private char correctLetter;
+    private string correctLetter;
     private AudioClip correctSound;
     public AudioSource audio;
     private List<ItemCard> generatedCards = new List<ItemCard>();
@@ -72,7 +72,7 @@ public class QuizManager : MonoBehaviour
         audio.PlayOneShot(correctSound);
     }
 
-    public void CheckAnswer(char chosenLetter)
+    public void CheckAnswer(string chosenLetter)
     {
         if (chosenLetter == correctLetter)
         {

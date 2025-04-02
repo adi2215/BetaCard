@@ -11,7 +11,7 @@ public class CatchManager : MonoBehaviour
     [SerializeField] private GameObject letterPrefab;
     public TextMeshProUGUI text;
 
-    private char currentTarget;
+    private string currentTarget;
     private int score = 0;
 
     private void Awake()
@@ -69,7 +69,7 @@ public class CatchManager : MonoBehaviour
         Debug.Log($"Новая цель: {currentTarget}");
     }
 
-    public char GetCurrentTarget()
+    public string GetCurrentTarget()
     {
         return currentTarget;
     }
